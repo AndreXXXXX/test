@@ -5,7 +5,7 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 
-public class Ball2 {
+public class Ball2 { //the balls that shoot out from the block
 	
 	//instance variables
 	private int x, y; 
