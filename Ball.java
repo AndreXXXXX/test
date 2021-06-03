@@ -6,8 +6,8 @@ public class Ball {
 	private int width;
 	private Color c;
 	
-	public Ball() {
-		/* job of the const is to give values to instance variables*/
+	public Ball() { //the ball on the left, supposed to be the player
+		
 		x = 0;
 		y = 250;
 		width = 50;
