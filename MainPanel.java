@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class MainPanel extends JPanel implements ActionListener{
-	//handles drawing animation
+	
 	Timer animationTimer; 
 	Ball b;
 	Enemy e;
