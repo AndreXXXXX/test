@@ -7,6 +7,8 @@ import java.awt.geom.AffineTransform;
 
 public class Ball2 { //the balls that shoot out from the block
 	
+	//ball2, ball3, and ball4 r supposed to be the bullets
+	
 	//instance variables
 	private int x, y; 
 	private int radius;
