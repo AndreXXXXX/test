@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Enemy {
+public class Enemy { //the moving block on the right
 	private int x, y; //location
 	private int width, height;
 	private Color c;
