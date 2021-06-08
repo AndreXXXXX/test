@@ -88,10 +88,28 @@ public class MainPanel extends JPanel implements ActionListener{
 		
 		
 	}
+	//--------------------------------------------------------------> stuff for collision <--------------------------------------------------
+		public void update() {
+		//calls collide
+		for ( int i = 0; i < obj.length; i++ ) {
+			b.collide(obj[i]);
+		}
+		
+		for ( int i = 0; i < obj2.length; i++ ) {
+			b.collide(obj2[i]);
+			}
+		
+		for ( int i = 0; i < obj3.length; i++ ) {
+			b.collide(obj3[i]);
+			}
+		
+	}
 
 	
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
+		
+		update();
 
 		repaint();
 		
