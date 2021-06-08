@@ -40,6 +40,54 @@ public class Ball4 { //3rd line of balls that shoot out from the block
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// --------------------------------> stuff for collision <-----------------------------------------
+	public int getWidth() {
+		return radius;
+	}
+
+	// write the setters for x
+	
+	public int getX() {
+		return x;
+	}
+	public int getY() {
+		return y;
+	}
+
+	// write the setters for x and y
+	public void setX(int newX) {
+		x = newX;
+	}
+	public void setY(int newY) {
+		y = newY;
+	}
+	public void setWidth(int newWidth) {
+		radius = newWidth;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void paint(Graphics g) {
 		
 		update(); 
